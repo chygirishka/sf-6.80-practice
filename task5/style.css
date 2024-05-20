@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  display: flex;
+  /* align-items: center; */
+  /* align-content: center; */
+  text-align: center;
+  justify-content: center;
+  height: 200px;
+  background: url(https://cdn.pixabay.com/photo/2024/04/01/14/58/sierra-del-torcal-8669125_1280.jpg)
+    bottom no-repeat;
+  background-size: cover;
+}
+h1 {
+  color: beige;
+  font-size: 3rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ebe7dc;
+  padding: 30px 0 30px;
+}
+p {
+  font-weight: bolder;
+  color: rgb(89, 75, 59);
+}
+input {
+  background-color: #ffffff;
+  min-width: auto;
+  max-width: 150px;
+}
+button {
+  color: #ebe7dc;
+  background-color: rgb(66, 75, 59);
+  position: relative;
+  /* top: 200px; */
+  left: 10px;
+}
+#duplicateField {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(89, 75, 59);
+  /* margin-bottom: 5px; */
+}
+footer {
+  padding-top: 20px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+.сopyright {
+  color: rgb(89, 75, 59);
+  font-family: "Times New Roman", Times, serif;
+}
+.сopyright:hover {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+}
